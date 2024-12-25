@@ -10,6 +10,7 @@ This is the frontend portion of the Nimble Invoice Management Portal. It provide
 - [Prerequisites](#Prerequisites)
 - [Setup](#setup)
 - [Usage](#usage)
+- [UI Picture](#ui-picture)
 
 
 ## Features
@@ -164,3 +165,6 @@ Before you can run the frontend application, make sure you have the following in
     ```
 
 2. Open the application in your browser at `http://localhost:3000`.
+
+## UI Picture
+<img width="719" alt="screenshot" src="https://github.com/user-attachments/assets/03571024-cf20-4792-ae19-1be1b8b313b2" />
