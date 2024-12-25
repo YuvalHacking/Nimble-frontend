@@ -1,0 +1,72 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+  overflow: auto;
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-img {
+    padding-top: 20px;
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  hr {
+    height: 1px;
+    border: none;
+    background-color: rgb(230, 227, 227);
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  /* File upload container */
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .upload-section, .filters-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  /* Apply padding between filters */
+  .filters-section > * {
+    margin-bottom: 15px;
+  }
+
+  /* Move filters section upwards */
+  .filters-section {
+    margin-top: -20px; /* Shift filters upwards by 20px (increase this value as needed) */
+  }
+
+  /* Optional: You can customize the button appearance further here */
+  .apply-filters-btn {
+    margin-top: 10px;
+    padding: 8px 24px; /* Same padding as the default Material-UI button */
+    font-size: 14px;
+    text-transform: none;
+  }
+}

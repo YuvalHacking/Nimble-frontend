@@ -1,0 +1,36 @@
+.chart {
+  flex: 4;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+
+    .title {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .chartGrid {
+    stroke: rgb(228, 225, 225);
+  }
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  // Adjust the height based on the chart's container height
+  }
+  
+  .MuiCircularProgress-root {
+    color: #1976d2;  // Optional: Change the loader color
+    size: 80px;  // Optional: Change the size if needed
+  }
+  
+}

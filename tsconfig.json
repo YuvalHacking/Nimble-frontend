@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "jsx": "react",
+    "esModuleInterop": true,
+
+    "baseUrl": "./src",
+    "paths": {
+      "@common/*": ["./common/*"],
+      "@components/*": ["./components/*"],
+      "@graphql/*": ["./graphql/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@pages/*": ["./pages/*"],
+      "@utils/*": ["./utils/*"],
+      "@store/*": ["./store/*"],
+      "@sharedTypes/*": ["./types/*"],
+      "@assets/*": ["./assets/*"],
+      "@customCharts/*": ["./components/Analysis/Charts/*"],
+    }
+  },
+  "exclude": ["node_modules"]
+}
