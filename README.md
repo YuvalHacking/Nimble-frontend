@@ -167,4 +167,4 @@ Before you can run the frontend application, make sure you have the following in
 2. Open the application in your browser at `http://localhost:3000`.
 
 ## UI Picture
-<img width="719" alt="screenshot" src="https://github.com/user-attachments/assets/03571024-cf20-4792-ae19-1be1b8b313b2" />
+<img width="827" alt="screen" src="https://github.com/user-attachments/assets/16147e2f-1aa3-4ecd-b6fe-1e9593f6ed97" />
